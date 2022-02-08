@@ -2,9 +2,7 @@
   <div>
     <div class="container">
       <div class="py-6 flex justify-between items-center">
-        <nuxt-link to="/" class="flex font-size-32 font-medium items-center">
-          <img class="mr-3" src="~/assets/img/logo.png" alt="">HRSHOP
-        </nuxt-link>
+        <logo/>
 
         <div class="w-96">
           <div class=" border border-gray-100 p-1 flex rounded-full items-center">
@@ -21,6 +19,35 @@
           <input-link to="/" class="flex items-center"><span class="hs-icon-box rounded-full hover:bg-gray-200 inline-block flex items-center justify-center"><img src="~/assets/img/user.png" alt=""></span><span>Account</span></input-link>
 
         </div>
+      </div>
+
+      <div class="flex">
+        <div class="w-96 items-center">
+          <div class="hs-dark-green-bg flex rounded-full px-4 py-2 cursor-pointer ">
+            <div class="min-w-max">
+              <img src="~/assets/img/menu-right.png" alt="">
+            </div>
+            <div class="w-full text-center px-6 text-white">
+              All Categories
+            </div>
+            <div class="min-w-max">
+              <img src="~/assets/img/chevron-down.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="w-full">
+          <ul class="flex justify-center">
+            <li><nuxt-link class="p-4" to="/">Home</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">Categories</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">About</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">Contact</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">FAQ</nuxt-link></li>
+            <li><nuxt-link class="p-4" to="/">Offers</nuxt-link></li>
+          </ul>
+        </div>
+        <nuxt-link to="/" class="min-w-max hs-dark-orange-color flex">
+          <img src="~/assets/img/percent.png" alt="" class="mr-3"> Special Offers!
+        </nuxt-link>
       </div>
     </div>
   </div>
